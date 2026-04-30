@@ -1,0 +1,22 @@
+# Dependencies
+node_modules/
+
+# Builds
+*.vsix
+
+# Logs
+*.log
+npm-debug.log*
+
+# Editor / OS
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Tests
+.nyc_output/
+coverage/
+
+# Env
+.env
+.env.local

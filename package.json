@@ -1,0 +1,76 @@
+{
+    "name": "glosscode.align",
+    "displayName": "GlossCod€ Align",
+    "description": "Aligner les propriétés CSS, JSON et YAML par bloc ou fichier entier.",
+    "version": "0.0.1",
+    "publisher": "GlossCode",
+    "license": "MIT",
+    "icon": "icon.png",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/GlossCode-fr/glosscode-align.git"
+    },
+    "bugs": {
+        "url": "https://github.com/GlossCode-fr/glosscode-align/issues"
+    },
+    "homepage": "https://www.glosscode.fr",
+    "engines": {
+        "vscode": "^1.85.0"
+    },
+    "categories": [
+        "Formatters",
+        "Other"
+    ],
+    "keywords": [
+        "align",
+        "alignment",
+        "css",
+        "scss",
+        "sass",
+        "less",
+        "json",
+        "yaml",
+        "formatter"
+    ],
+    "activationEvents": [],
+    "main": "./extension.js",
+    "contributes": {
+        "commands": [
+            {
+                "command": "alignement-codes.align",
+                "title": "GlossCod€ Align : Fichier entier"
+            },
+            {
+                "command": "alignement-codes.alignBlock",
+                "title": "GlossCod€ Align : Bloc au curseur"
+            }
+        ],
+        "keybindings": [
+            {
+                "command": "alignement-codes.align",
+                "key": "alt+g",
+                "mac": "alt+g",
+                "when": "editorTextFocus && !editorReadonly"
+            },
+            {
+                "command": "alignement-codes.alignBlock",
+                "key": "alt+c",
+                "mac": "alt+c",
+                "when": "editorTextFocus && !editorReadonly"
+            }
+        ]
+    },
+    "scripts": {
+        "lint": "eslint .",
+        "pretest": "npm run lint",
+        "test": "vscode-test"
+    },
+    "devDependencies": {
+        "@types/vscode": "^1.85.0",
+        "@types/mocha": "^10.0.10",
+        "@types/node": "22.x",
+        "eslint": "^9.39.3",
+        "@vscode/test-cli": "^0.0.12",
+        "@vscode/test-electron": "^2.5.2"
+    }
+}
