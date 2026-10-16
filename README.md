@@ -22,6 +22,15 @@
 
 <br>
 
+## 🆕 Nouveautés v0.0.2 — 16 octobre 2026
+
+- 🧱 Un bloc est désormais défini par ses accolades `{ }` — commentaires et lignes vides n'interrompent plus l'alignement
+- 🎨 Les variables CSS dans `:root { }` sont correctement alignées
+- 🔁 Chaque sélecteur imbriqué (SCSS / LESS) a son propre alignement indépendant
+- 🛠️ Correctifs YAML (clé parente sans valeur, clé de même niveau après un sous-bloc)
+
+<br>
+
 ## 💡 Fonctionnalités
 
 - ⚡ **Aligne un fichier entier** en une seule action avec `Alt+G`
@@ -71,7 +80,7 @@
 - **GlossCod€ Colors** → Thème de colorisation syntaxique sombre et clair *(bientôt disponible)*
 - **GlossCod€ Comments** → Commentaires en couleur sur différents langages *(bientôt disponible)*
 
-🌍 **Site web** : [glosscode.fr](https://www.glosscode.fr) *(en cours de création — lancement prévu pour septembre 2026)*
+🌍 **Site web** : [glosscode.fr](https://www.glosscode.fr) *(en cours de création — lancement prévu courant 2027)*
 
 <br>
 
@@ -86,6 +95,15 @@
 ### ⚡ Align your CSS, JSON and YAML in a single keystroke.
 
 **More readable code, faster reading, daily time savings.**
+
+<br>
+
+## 🆕 What's new in v0.0.2 — October 16, 2026
+
+- 🧱 A block is now defined by its braces `{ }` — comments and blank lines no longer break alignment
+- 🎨 CSS variables inside `:root { }` are correctly aligned
+- 🔁 Each nested selector (SCSS / LESS) has its own independent alignment
+- 🛠️ YAML fixes (parent key without value, same-level key after a sub-block)
 
 <br>
 
@@ -138,7 +156,7 @@
 - **GlossCod€ Colors** → Dark and light syntax highlighting theme *(coming soon)*
 - **GlossCod€ Comments** → Color-coded comments in different languages *(coming soon)*
 
-🌍 **Website**: [glosscode.fr](https://www.glosscode.fr) *(under construction — launch expected for September 2026)*
+🌍 **Website**: [glosscode.fr](https://www.glosscode.fr) *(under construction — launch expected during 2027)*
 
 <br>
 

@@ -1,8 +1,8 @@
 {
-    "name": "glosscode.align",
+    "name": "glosscode-align",
     "displayName": "GlossCod€ Align",
     "description": "Aligner les propriétés CSS, JSON et YAML par bloc ou fichier entier.",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "publisher": "GlossCode",
     "license": "MIT",
     "icon": "icon.png",
